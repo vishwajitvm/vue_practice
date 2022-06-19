@@ -5,6 +5,7 @@
   <!-- <MethodsWithParam></MethodsWithParam> -->
   <!-- <EventFunctions /> -->
   <!-- <EventFunction2Practice /> -->
+  <TwoWayBinding></TwoWayBinding>
 </template>
 
 <script>
@@ -13,6 +14,7 @@
 // import MethodsWithParam from './components/MethodsWithParam.vue'
 // import EventFunctions from './components/EventFunctions.vue'
 // import EventFunction2Practice from './components/EventFunction2Practice.vue'
+import TwoWayBinding from './components/TwoWayBinding.vue'
 
 export default {
   name: 'App',
@@ -21,7 +23,8 @@ export default {
     // InterPolComponent,
     // MethodsWithParam,
     // EventFunctions,
-    // EventFunction2Practice
+    // EventFunction2Practice,
+    TwoWayBinding
   }
 }
 </script>
