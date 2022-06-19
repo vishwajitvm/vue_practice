@@ -3,16 +3,16 @@
   <!-- <HelloWorld msg="Welcome to Vishwajit Vm"/> -->
   <!-- <InterPolComponent></InterPolComponent> -->
   <!-- <MethodsWithParam></MethodsWithParam> -->
-  <EventFunctions />
-  <EventFunction2Practice />
+  <!-- <EventFunctions /> -->
+  <!-- <EventFunction2Practice /> -->
 </template>
 
 <script>
 // import HelloWorld from './components/HelloWorld.vue'
 // import InterPolComponent from './components/InterPolComponent.vue'
 // import MethodsWithParam from './components/MethodsWithParam.vue'
-import EventFunctions from './components/EventFunctions.vue'
-import EventFunction2Practice from './components/EventFunction2Practice.vue'
+// import EventFunctions from './components/EventFunctions.vue'
+// import EventFunction2Practice from './components/EventFunction2Practice.vue'
 
 export default {
   name: 'App',
@@ -20,8 +20,8 @@ export default {
     // HelloWorld,
     // InterPolComponent,
     // MethodsWithParam,
-    EventFunctions,
-    EventFunction2Practice
+    // EventFunctions,
+    // EventFunction2Practice
   }
 }
 </script>
