@@ -5,7 +5,8 @@
   <!-- <MethodsWithParam></MethodsWithParam> -->
   <!-- <EventFunctions /> -->
   <!-- <EventFunction2Practice /> -->
-  <TwoWayBinding></TwoWayBinding>
+  <!-- <TwoWayBinding></TwoWayBinding> -->
+  <GetInputValues></GetInputValues>
 </template>
 
 <script>
@@ -14,7 +15,8 @@
 // import MethodsWithParam from './components/MethodsWithParam.vue'
 // import EventFunctions from './components/EventFunctions.vue'
 // import EventFunction2Practice from './components/EventFunction2Practice.vue'
-import TwoWayBinding from './components/TwoWayBinding.vue'
+// import TwoWayBinding from './components/TwoWayBinding.vue'
+import GetInputValues from './components/GetInputValues.vue' 
 
 export default {
   name: 'App',
@@ -24,7 +26,8 @@ export default {
     // MethodsWithParam,
     // EventFunctions,
     // EventFunction2Practice,
-    TwoWayBinding
+    // TwoWayBinding,
+    GetInputValues
   }
 }
 </script>
