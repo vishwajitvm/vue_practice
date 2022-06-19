@@ -1,18 +1,21 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Vishwajit Vm"/>
+  <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
+  <!-- <HelloWorld msg="Welcome to Vishwajit Vm"/> -->
   <InterPolComponent></InterPolComponent>
+  <MethodsWithParam />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+// import HelloWorld from './components/HelloWorld.vue'
 import InterPolComponent from './components/InterPolComponent.vue'
+import MethodsWithParam from './components/MethodsWithParam.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld,
-    InterPolComponent
+    // HelloWorld,
+    InterPolComponent,
+    MethodsWithParam
   }
 }
 </script>
