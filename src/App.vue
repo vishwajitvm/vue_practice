@@ -2,20 +2,26 @@
   <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
   <!-- <HelloWorld msg="Welcome to Vishwajit Vm"/> -->
   <!-- <InterPolComponent></InterPolComponent> -->
-  <MethodsWithParam></MethodsWithParam>
+  <!-- <MethodsWithParam></MethodsWithParam> -->
+  <EventFunctions />
+  <EventFunction2Practice />
 </template>
 
 <script>
 // import HelloWorld from './components/HelloWorld.vue'
 // import InterPolComponent from './components/InterPolComponent.vue'
 // import MethodsWithParam from './components/MethodsWithParam.vue'
+import EventFunctions from './components/EventFunctions.vue'
+import EventFunction2Practice from './components/EventFunction2Practice.vue'
 
 export default {
   name: 'App',
   components: {
     // HelloWorld,
     // InterPolComponent,
-    // MethodsWithParam
+    // MethodsWithParam,
+    EventFunctions,
+    EventFunction2Practice
   }
 }
 </script>
