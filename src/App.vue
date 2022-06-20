@@ -6,7 +6,8 @@
   <!-- <EventFunctions /> -->
   <!-- <EventFunction2Practice /> -->
   <!-- <TwoWayBinding></TwoWayBinding> -->
-  <GetInputValues></GetInputValues>
+  <!-- <GetInputValues></GetInputValues> -->
+  <GetRadioAndCheckBoxValue />
 </template>
 
 <script>
@@ -16,7 +17,8 @@
 // import EventFunctions from './components/EventFunctions.vue'
 // import EventFunction2Practice from './components/EventFunction2Practice.vue'
 // import TwoWayBinding from './components/TwoWayBinding.vue'
-import GetInputValues from './components/GetInputValues.vue' 
+// import GetInputValues from './components/GetInputValues.vue' 
+import GetRadioAndCheckBoxValue from './components/GetRadioAndCheckBoxValue.vue'
 
 export default {
   name: 'App',
@@ -27,7 +29,8 @@ export default {
     // EventFunctions,
     // EventFunction2Practice,
     // TwoWayBinding,
-    GetInputValues
+    // GetInputValues,
+    GetRadioAndCheckBoxValue
   }
 }
 </script>
