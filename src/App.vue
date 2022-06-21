@@ -11,7 +11,8 @@
   <!-- <IfElseConditions /> -->
   <!-- <ForLoop /> -->
   <!-- <ParentHomeComponent /> -->
-  <ReuseParentCompo />
+  <!-- <ReuseParentCompo /> -->
+  <HtmlBindingCompo />
 </template>
 
 <script>
@@ -26,7 +27,8 @@
 // import IfElseConditions from './components/IfElseConditions.vue'
 // import ForLoop from './components/ForLoop.vue'
 // import ParentHomeComponent from './components/childAndParentComponent/ParentHomeComponent.vue'
-import ReuseParentCompo from './components/reuseComponent/ReuseParentCompo.vue'
+// import ReuseParentCompo from './components/reuseComponent/ReuseParentCompo.vue'
+import HtmlBindingCompo from './components/HtmlBindingCompo.vue'
 
 export default {
   name: 'App',
@@ -42,7 +44,8 @@ export default {
     // IfElseConditions,
     // ForLoop,
     // ParentHomeComponent,
-    ReuseParentCompo
+    // ReuseParentCompo,
+    HtmlBindingCompo
   }
 }
 </script>
