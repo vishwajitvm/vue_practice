@@ -7,7 +7,8 @@
   <!-- <EventFunction2Practice /> -->
   <!-- <TwoWayBinding></TwoWayBinding> -->
   <!-- <GetInputValues></GetInputValues> -->
-  <GetRadioAndCheckBoxValue />
+  <!-- <GetRadioAndCheckBoxValue /> -->
+  <IfElseConditions />
 </template>
 
 <script>
@@ -18,7 +19,8 @@
 // import EventFunction2Practice from './components/EventFunction2Practice.vue'
 // import TwoWayBinding from './components/TwoWayBinding.vue'
 // import GetInputValues from './components/GetInputValues.vue' 
-import GetRadioAndCheckBoxValue from './components/GetRadioAndCheckBoxValue.vue'
+// import GetRadioAndCheckBoxValue from './components/GetRadioAndCheckBoxValue.vue'
+import IfElseConditions from './components/IfElseConditions.vue'
 
 export default {
   name: 'App',
@@ -30,7 +32,8 @@ export default {
     // EventFunction2Practice,
     // TwoWayBinding,
     // GetInputValues,
-    GetRadioAndCheckBoxValue
+    // GetRadioAndCheckBoxValue,
+    IfElseConditions
   }
 }
 </script>
