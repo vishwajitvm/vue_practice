@@ -8,7 +8,9 @@
   <!-- <TwoWayBinding></TwoWayBinding> -->
   <!-- <GetInputValues></GetInputValues> -->
   <!-- <GetRadioAndCheckBoxValue /> -->
-  <IfElseConditions />
+  <!-- <IfElseConditions /> -->
+  <!-- <ForLoop /> -->
+  <ParentHomeComponent />
 </template>
 
 <script>
@@ -20,7 +22,9 @@
 // import TwoWayBinding from './components/TwoWayBinding.vue'
 // import GetInputValues from './components/GetInputValues.vue' 
 // import GetRadioAndCheckBoxValue from './components/GetRadioAndCheckBoxValue.vue'
-import IfElseConditions from './components/IfElseConditions.vue'
+// import IfElseConditions from './components/IfElseConditions.vue'
+// import ForLoop from './components/ForLoop.vue'
+import ParentHomeComponent from './components/childAndParentComponent/ParentHomeComponent.vue'
 
 export default {
   name: 'App',
@@ -33,7 +37,9 @@ export default {
     // TwoWayBinding,
     // GetInputValues,
     // GetRadioAndCheckBoxValue,
-    IfElseConditions
+    // IfElseConditions,
+    // ForLoop,
+    ParentHomeComponent
   }
 }
 </script>
