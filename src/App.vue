@@ -10,7 +10,8 @@
   <!-- <GetRadioAndCheckBoxValue /> -->
   <!-- <IfElseConditions /> -->
   <!-- <ForLoop /> -->
-  <ParentHomeComponent />
+  <!-- <ParentHomeComponent /> -->
+  <ReuseParentCompo />
 </template>
 
 <script>
@@ -24,7 +25,8 @@
 // import GetRadioAndCheckBoxValue from './components/GetRadioAndCheckBoxValue.vue'
 // import IfElseConditions from './components/IfElseConditions.vue'
 // import ForLoop from './components/ForLoop.vue'
-import ParentHomeComponent from './components/childAndParentComponent/ParentHomeComponent.vue'
+// import ParentHomeComponent from './components/childAndParentComponent/ParentHomeComponent.vue'
+import ReuseParentCompo from './components/reuseComponent/ReuseParentCompo.vue'
 
 export default {
   name: 'App',
@@ -39,7 +41,8 @@ export default {
     // GetRadioAndCheckBoxValue,
     // IfElseConditions,
     // ForLoop,
-    ParentHomeComponent
+    // ParentHomeComponent,
+    ReuseParentCompo
   }
 }
 </script>
