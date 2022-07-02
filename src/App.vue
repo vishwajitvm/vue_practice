@@ -12,7 +12,11 @@
   <!-- <ForLoop /> -->
   <!-- <ParentHomeComponent /> -->
   <!-- <ReuseParentCompo /> -->
-  <HtmlBindingCompo />
+  <!-- <HtmlBindingCompo /> -->
+  <!-- <ClassBinding /> -->
+  <!-- <ParentClass/> -->
+  <!-- <RefComponents/> -->
+  <SimpleFormComponent />
 </template>
 
 <script>
@@ -28,7 +32,11 @@
 // import ForLoop from './components/ForLoop.vue'
 // import ParentHomeComponent from './components/childAndParentComponent/ParentHomeComponent.vue'
 // import ReuseParentCompo from './components/reuseComponent/ReuseParentCompo.vue'
-import HtmlBindingCompo from './components/HtmlBindingCompo.vue'
+// import HtmlBindingCompo from './components/HtmlBindingCompo.vue'
+// import ClassBinding from './components/ClassBinding.vue'
+// import ParentClass from './components/ChildToParentProps/ParentClass.vue'
+// import RefComponents from './components/RefComponents.vue'
+import SimpleFormComponent from './components/FORMS/SimpleFormComponent.vue'
 
 export default {
   name: 'App',
@@ -45,7 +53,11 @@ export default {
     // ForLoop,
     // ParentHomeComponent,
     // ReuseParentCompo,
-    HtmlBindingCompo
+    // HtmlBindingCompo,
+    // ClassBinding,
+    // ParentClass,
+    // RefComponents.
+    SimpleFormComponent
   }
 }
 </script>
@@ -60,3 +72,6 @@ export default {
   margin-top: 60px;
 }
 </style>
+
+
+ChildToParentProps
