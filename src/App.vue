@@ -16,7 +16,8 @@
   <!-- <ClassBinding /> -->
   <!-- <ParentClass/> -->
   <!-- <RefComponents/> -->
-  <SimpleFormComponent />
+  <!-- <SimpleFormComponent /> -->
+  <Simpleform2Component />
 </template>
 
 <script>
@@ -36,7 +37,8 @@
 // import ClassBinding from './components/ClassBinding.vue'
 // import ParentClass from './components/ChildToParentProps/ParentClass.vue'
 // import RefComponents from './components/RefComponents.vue'
-import SimpleFormComponent from './components/FORMS/SimpleFormComponent.vue'
+// import SimpleFormComponent from './components/FORMS/SimpleFormComponent.vue'
+import Simpleform2Component from './components/FORMS/Simpleform2Component.vue'
 
 export default {
   name: 'App',
@@ -57,7 +59,8 @@ export default {
     // ClassBinding,
     // ParentClass,
     // RefComponents.
-    SimpleFormComponent
+    // SimpleFormComponent.
+    Simpleform2Component
   }
 }
 </script>
